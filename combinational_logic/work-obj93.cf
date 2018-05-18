@@ -1,0 +1,12 @@
+v 4
+file . "comb_ckt_tb.vhd" "93ac4194cb734a6f3ab21a2085ed242cb40f5d88" "20180518130313.006":
+  entity ckt_tb at 14( 527) + 0 on 20;
+  architecture tb of ckt_tb at 23( 717) + 0 on 21;
+  configuration cfg_tb at 101( 2921) + 0 on 22;
+file . "comb_ckt.vhd" "de68d0ed0f7168856ad3db77922498a30ac7e82b" "20180518130258.092":
+  entity or_gate at 14( 468) + 0 on 14;
+  architecture behv of or_gate at 23( 618) + 0 on 15;
+  entity and_gate at 35( 823) + 0 on 16;
+  architecture behv of and_gate at 44( 972) + 0 on 17;
+  entity comb_ckt at 56( 1185) + 0 on 18;
+  architecture struct of comb_ckt at 67( 1391) + 0 on 19;

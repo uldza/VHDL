@@ -1,0 +1,33 @@
+= VHDL Examples and learning gotchas
+
+This is set of VHDL examples and how to simuate and check results on MacOS.
+
+
+== Requirements
+
+* install GHDL from its https://github.com/ghdl/ghdl[github]
+
+* install *gtkwave* viewer to see simulation results, it can be done using
+*homebrew* on MacOS and it will be installed as App (launsh from spotlight)
+
+
+== How To
+
+Breefly about necessary steps to use ghdl to simulate your designs (some
+examples can be found http://esd.cs.ucr.edu/labs/tutorial/[here]:
+
+* create you vhdl design, save it in code editor (example from *combinational_logic*
+* analyze your design in console `ghdl -a comb_ckt.vhd`
+* analyze your test bench desing `ghdl -a --ieee=synopsys comb_ckt_tb.vhd`
+* create executable `ghdl -e --ieee=synopsys CKT_TB`, CKT_TB is entity described in testbench
+* run the testbench `ghdl -r --ieee=synopsys CKT_TB`
+* you can add signals output when runing `ghdl -r --ieee=synopsys CKT_TB --vcd=CKT_TB.vcd`
+* to see results in *gtkwave* app run `CKT_TB.vcd` from terminal
+
+
+== TROUBLESHOOTING
+
+Some errors I encontered:
+
+* error `unit "std_logic_arith" not found in library "ieee"`, so to fix this run
+`ghdl -a --ieee=synopsys design.vhd`
