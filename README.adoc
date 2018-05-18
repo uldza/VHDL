@@ -8,7 +8,7 @@ This is set of VHDL examples and how to simuate and check results on MacOS.
 * install GHDL from its https://github.com/ghdl/ghdl[github]
 
 * install *gtkwave* viewer to see simulation results, it can be done using
-*homebrew* on MacOS and it will be installed as App (launsh from spotlight)
+*homebrew* on MacOS and it will be installed as App (launch from spotlight)
 
 
 == How To
