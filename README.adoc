@@ -13,8 +13,8 @@ This is set of VHDL examples and how to simuate and check results on MacOS.
 
 == How To
 
-Breefly about necessary steps to use ghdl to simulate your designs (some
-examples can be found http://esd.cs.ucr.edu/labs/tutorial/[here]:
+Breefly about necessary steps for using ghdl to simulate VHDL designs (some
+examples can be found http://esd.cs.ucr.edu/labs/tutorial/[here]):
 
 * create you vhdl design, save it in code editor (example from *combinational_logic*
 * analyze your design in console `ghdl -a comb_ckt.vhd`
