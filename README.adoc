@@ -22,7 +22,7 @@ examples can be found http://esd.cs.ucr.edu/labs/tutorial/[here]):
 * create executable `ghdl -e --ieee=synopsys CKT_TB`, CKT_TB is entity described in testbench
 * run the testbench `ghdl -r --ieee=synopsys CKT_TB`
 * you can add signals output when runing `ghdl -r --ieee=synopsys CKT_TB --vcd=CKT_TB.vcd`
-* to see results in *gtkwave* app run `CKT_TB.vcd` from terminal
+* to see results in *gtkwave* app run `open CKT_TB.vcd` from terminal
 
 
 == TROUBLESHOOTING
