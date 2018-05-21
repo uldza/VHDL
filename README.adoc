@@ -16,7 +16,7 @@ This is set of VHDL examples and how to simuate and check results on MacOS.
 Breefly about necessary steps for using ghdl to simulate VHDL designs (some
 examples can be found http://esd.cs.ucr.edu/labs/tutorial/[here]):
 
-* create you vhdl design, save it in code editor (example from *combinational_logic*
+* create you vhdl design, save it in code editor (example from *combinational_logic*)
 * analyze your design in console `ghdl -a comb_ckt.vhd`
 * analyze your test bench desing `ghdl -a --ieee=synopsys comb_ckt_tb.vhd`
 * create executable `ghdl -e --ieee=synopsys CKT_TB`, CKT_TB is entity described in testbench
